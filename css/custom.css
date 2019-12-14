@@ -2,3 +2,23 @@
 .works-message {
     font-size: 18px;
 }
+
+/* 料金表レスポンシブ対応 */
+@media screen and (max-width: 640px) {
+    .ta1 {
+      width: 80%;
+      border: none;
+    }
+    .ta1 .thead {
+      display: none;
+    }
+    .ta1 tr,
+    .ta1 td{
+      display: block;
+      width: 100%;
+      position: relative;
+    }
+    .ta1 tr {
+      margin-bottom: 40px;
+    }
+  }
